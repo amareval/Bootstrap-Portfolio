@@ -49,9 +49,33 @@ body {
 
 #portrait{
     height: 90%;
+    padding: 15px;
 }
 
 #aboutmeheader{
-    background: white;
     width: 100%;
 }
+
+p{
+    line-height: 1.5;
+}
+
+#aboutme{
+    padding-top: 10px;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#social{
+    padding-bottom: 25px;
+}
+#info{
+    padding: 15px;
+}
+hr {
+    border-color: rgba(158, 152, 152, 0.486);
+    border-style: solid;
+    padding: 1px;
+    background: #d4d3d3;
+    }

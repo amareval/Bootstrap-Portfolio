@@ -4,74 +4,121 @@
     <meta charset="UTF-8">
     <title>Alex Arevalo Portfolio</title>
   <link rel="stylesheet" href="assets/css/style3.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
-    <header>
-        <div id="Top">
-            <h1 class="Name">Alex Arevalo</h1>
-            <div id="links">
-                <a href="file:///Users/alexarevalo/Documents/MyProjects/Basic-Portfolio/index.html">About</a>
-                <a href="file:///Users/alexarevalo/Documents/MyProjects/Basic-Portfolio/portfolio.html">Portfolio</a>
-                <a href="file:///Users/alexarevalo/Documents/MyProjects/Basic-Portfolio/contact.html">Contact</a>
-            </div>
-        </div>
-    </header>
-    <div id="body">
-        <div id="bio">
-                <h2>
-                    Portfolio
-                    <hr id="connectmehr">
-                </h2>
-            <div id= "portfolio">
-
-                    <div class="toprow">
-                        <div id="explosionbox">
-                            <img id="explosion" src="assets/images/actionexplosion.jpg" alt="EXPLOSION" />
-                            <h3 id = "Adventures">Adventures</h3>
-                        </div>
-                    
-                        <div id="hobbiesbox">
-                            <img id="boxing" src="assets/images/boxinggym.jpg" alt="boxinggym" />
-                            <h3 id = "Hobbies">Hobbies</h3>
-                        </div>
-                    </div>
-
-                    <div class="toprow">
-                            <div id="explosionbox">
-                                <img id="explosion" src="assets/images/cooloffice.jpg" alt="EXPLOSION" />
-                                <h3 id = "extra">Extra</h3>
-                            </div>
-                        
-                            <div id="hobbiesbox">
-                                <img id="boxing" src="assets/images/Grammys.jpg" alt="boxinggym" />
-                                <h3 id = "awards">Awards</h3>
-                            </div>
-                        </div>
-                    
-                    <div id = "bottomrow">
-                        <div id="relaxbox">
-                            <img id="relax" src="assets/images/Naturebackground.jpeg" alt="Relax" />
-                             <h3 id = "relaxport">Relax Portfolio</h3>
-                        </div>
-                    </div>
-            </div>
-        </div>
-            <div id="connectme">
-                <h3>Connect with Me</h3>
-                <br>
-                <hr class="connectmehr">
-                <br>
-                <div>
-                    <a href="https://create.snapchat.com/org/e693e7d1-c027-48cc-8c03-f38081e3e039/purchase/choose-product">
-                    <img id="image1" src="assets/images/Snapchat.jpg" alt="Snapchat Logo">
-                    </a>
-                    <a href="https://www.instagram.com/alex_revalo/">
-                    <img id="image2" src="assets/images/ig-logo-email.png" alt="Instagram Logo">
-                    </a>
-                    <a href="https://github.com/">
-                    <img id="image3" src="assets/images/GitHub-Mark.png" alt="GitHub Logo">
-                    </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-1 col-xs-1">
+            
                 </div>
+                <div class="col-md-5 col-xs-2">
+                    <a id="Alex" class="navbar-brand text-white float-left" href="#">Alex Arevalo</a>
+                </div>
+                <div class="col-md-2 col-xs-1">
+            
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-md-5 col-xs-5" id="navbarNav">
+                    <ul class="navbar-nav">
+                       <li class="nav-item active">
+                            <a class="nav-link" href="file:///Users/alexarevalo/Documents/MyProjects/Bootstrap-Portfolio/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="file:///Users/alexarevalo/Documents/MyProjects/Bootstrap-Portfolio/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="file:///Users/alexarevalo/Documents/MyProjects/Bootstrap-Portfolio/index.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1 col-xs-1">
+            
+                </div>
+            </nav>
+            <br>
+            <br>
+
+        <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-10">
+                <div class="col-md-8 col-xs-12 float-left bg-light border border-secondary">
+                    <div class="row" id="aboutmeheader">
+                        <h2 id="aboutme" class="col-12 bg-light float-left">
+                                    Portfolio 
+                            <hr>
+                        </h2>
+                    </div>
+                    
+                    <div class="row h-100">
+                        <div class="col-md-6">
+                            <div class="thumbnail text-center" style="background-image: url('assets/img/101.jpg');">
+                                <img id="explosion" class="img-fluid rounded float-left" src="assets/images/actionexplosion.jpg" alt="EXPLOSION"/>
+                                <div class="caption">
+                                    <p>Adventures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-holder thumbnail text-center" style="background-image: url('assets/img/101.jpg');">
+                                <img  class="img-fluid rounded" src="assets/images/boxinggym.jpg" alt="boxinggym" />
+                                <div class="caption">
+                                        <p>Hobbies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-6">
+                                <div class="image-holder thumbnail text-center" style="background-image: url('assets/img/101.jpg');">
+                                    <img class="img-fluid rounded float-left" src="assets/images/cooloffice.jpg" alt="EXPLOSION" />
+                                    <div class="caption">
+                                            <p>Extra</p>
+                                        </div>                                
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="image-holder thumbnail text-center" style="background-image: url('assets/img/101.jpg');">
+                                    <img class="img-fluid rounded" src="assets/images/Grammys.jpg" alt="boxinggym" />
+                                    <div class="caption">
+                                            <p>Awards</p>
+                                        </div>                                 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-6">
+                                <div class="image-holder thumbnail text-center" style="background-image: url('assets/img/101.jpg');">
+                                    <img class="img-fluid rounded float-left" src="assets/images/Naturebackground.jpeg" alt="Relax" />
+                                    <div class="caption">
+                                            <p>Relax</p>
+                                    </div> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            <div class="col-md-3 col-xs-12 float-right bg-light border border-secondary">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 id="aboutme" class="text-center">Connect with Me</h3>
+                        </div>
+                    </div>
+                        <hr>
+                    <div class="row">
+                        <div id="social" class="col-12">
+                            <a href="https://create.snapchat.com/org/e693e7d1-c027-48cc-8c03-f38081e3e039/purchase/choose-product">
+                            <img class="col-4 img-fluid rounded float-left" src="assets/images/Snapchat.jpg" alt="Snapchat Logo">
+                            </a>
+                            <a href="https://www.instagram.com/alex_revalo/">
+                            <img class="col-4 img-fluid rounded float-left" src="assets/images/ig-logo-email.png" alt="Instagram Logo">
+                            </a>
+                            <a href="https://github.com/">
+                            <img class="col-4 img-fluid rounded float-left" src="assets/images/GitHub-Mark.png" alt="GitHub Logo">
+                            </a>
+                        </div>
+                    </div>    
             </div>
     </div>
   </body>
